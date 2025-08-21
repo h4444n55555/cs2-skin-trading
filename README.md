@@ -36,3 +36,14 @@ The aim is to collect data, study market patterns, and build simple trading stra
 5. Simulate trades with a bot  
 
 ---
+## 🛠️ API Plan (MVP)
+
+### Endpoints
+- GET /skins → list all skins with name + price
+- GET /skins/{name} → details of one skin
+
+### Data fields
+- skin_name
+- price
+- volume
+- market_url
